@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: absolute;
+    width:100%;
+    height: 100%;
+
+    display: flex;
+    background-color: rgb(133, 187, 187);
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 35%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 35px;
+    background-color: rgb(69, 100, 100);
+}
+
+.info{
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(50, 73, 73);
+    border-radius:25px;
+}
+
+.Valor{
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 25px;
+    width:15%;
+    height: 15%;
+    font-weight: 600;
+    font-size: 35px;
+    background-color: rgb(216, 216, 216);
+}
+
+.Converter{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 25px;
+    padding:5px;
+    background-color: rgb(216, 216, 216);
+}
+
+.resultado{
+   margin-top: 5px;
+   font-family: sans-serif;
+   padding: 5px;
+   background-color: rgb(216, 216, 216);
+   border-radius:25px;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    form{
+        height: 55%;
+        width: 85%;
+    }
+    .info{
+        padding: 15px;
+        max-width: 85%;
+    }
+    .Valor{
+        margin-top: 15px;
+        width:25%;
+        height: 15%;
+    }
+    .Converter{
+        font-size: 25px;
+        border-radius: 25px;
+        padding:10px;
+    }
+    .resultado{
+        width: 88%;
+        margin-top: 15px;
+        font-family: sans-serif;
+        padding: 10px;
+        border-radius:25px;
+     }
+}
